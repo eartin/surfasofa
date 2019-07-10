@@ -1,0 +1,1 @@
+export const allHostings = ({ hostings }) => (Object.keys(hostings).map(hostingId => hostings[hostingId]));
